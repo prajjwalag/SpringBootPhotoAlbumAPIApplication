@@ -8,16 +8,15 @@ import io.swagger.v3.oas.annotations.info.*;
 @Configuration
 @OpenAPIDefinition(
   info =@Info(
-    title = "Demo API",
+    title = "Photos Album API",
     version = "Verions 1.0",
     contact = @Contact(
-      name = "StudyEasy", email = "admin@studyeasy.org", url = "https://studyeasy.org"
+      name = "Prajjwal Agrahari", email = "prajjwal.agrahari16@gmail.com"
     ),
     license = @License(
       name = "Apache 2.0", url = "https://www.apache.org/licenses/LICENSE-2.0"
     ),
-    termsOfService = "https://studyeasy.org/",
-    description = "Spring Boot RestFul API Demo by Chaand"
+    description = "Spring Boot RestFul Photos Album API"
   )
 )
 public class SwaggerConfig {
